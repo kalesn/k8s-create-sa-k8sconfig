@@ -7,7 +7,7 @@ Use service account to generate k8s configuration files
 
 
 # EN 
-Default Runtime env MacOs，If you need to run on Linux. Please modify Line 36 and line 42, the jq -D parameter to jq -d
+Default Runtime env MacOs，If you need to run on Linux. Please modify jq -D parameter to jq -d
 
 # Usage: 
 sh k8s_create_sa_kubeconfig.sh ServiceAccountName  Namespace
